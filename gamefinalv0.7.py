@@ -21,7 +21,7 @@ pygame.display.set_icon(icon)
 
 # Background music
 mixer.music.load('bgmusic.mp3')
-# mixer.music.play(-1)  # -1: to continuously have the sound
+mixer.music.play(-1)  # -1: to continuously have the sound
 
 #main menu
 mainmenu = np.array([["->","START GAME"],["__","SHOW HIGHEST SCORE"],["__","EXIT"]])
